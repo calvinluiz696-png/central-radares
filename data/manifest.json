@@ -1,0 +1,37 @@
+{
+  "started": "2026-11-25T23:57:00Z",
+  "status": "partial",
+  "notes": [],
+  "pages": [
+    {
+      "id": "jundiai-radares-campanha-2021",
+      "url": "https://jundiai.sp.gov.br/noticias/2021/04/15/radares-instalados-no-municipio-integram-campanha-educativa-para-motoristas/",
+      "family": "prefeitura",
+      "result": "IA pausada (sem cota/chave): retoma quando renovar"
+    },
+    {
+      "id": "dt-der-sp-radares-2026-10",
+      "url": "https://diariodotransporte.com.br/2026/10/01/sao-paulo-homologa-seis-radares-fixos-em-cinco-rodovias-veja-os-quilometros-e-sentidos-de-fiscalizacao/amp/",
+      "family": "imprensa",
+      "result": "IA pausada: será reprocessada na próxima execução"
+    }
+  ],
+  "ai": {
+    "paused_reason": "gemini: sem chave (GEMINI_API_KEY); groq: sem chave (GROQ_API_KEY); cloudflare: sem chave (CLOUDFLARE_API_TOKEN); mistral: sem chave (MISTRAL_API_KEY)",
+    "calls": {}
+  },
+  "pardal_points": 5171,
+  "osm_cameras": 156,
+  "stats": {
+    "already_in_base": 128,
+    "confirmed": 0,
+    "unofficial": 0,
+    "pending": 0
+  },
+  "confirmed_total": 0,
+  "pending_total": 0,
+  "unofficial_total": 0,
+  "unofficial_levels": {},
+  "finished": "2026-11-25T23:57:45Z",
+  "license": "Dados derivados do projeto Pardal e do OpenStreetMap sob a Open Database License (ODbL) 1.0. Atribuição obrigatória; redistribuição da base derivada deve manter a mesma licença."
+}

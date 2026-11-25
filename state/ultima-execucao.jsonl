@@ -1,0 +1,4 @@
+{"provider": "gemini", "event": "skip", "reason": "sem chave"}
+{"provider": "groq", "event": "skip", "reason": "sem chave"}
+{"provider": "cloudflare", "event": "skip", "reason": "sem chave"}
+{"provider": "mistral", "event": "skip", "reason": "sem chave"}
