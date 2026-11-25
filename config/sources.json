@@ -1,0 +1,9 @@
+{
+  "comentario": "Páginas públicas lidas pela Central. Só entram aqui endereços que você mesmo confirmou que existem. 'family' diz quem é a fonte: prefeitura, der-sp, artesp, dnit, prf, antt contam como OFICIAIS; imprensa e forum (páginas públicas que permitem leitura automática, conforme robots.txt) NUNCA confirmam: geram no máximo o nível 'não oficial' (corroborado se concordarem com outra fonte). Adicione/remova livremente.",
+  "pages": [
+    {"id": "jundiai-radares-campanha-2021", "family": "prefeitura", "city": "Jundiaí",
+     "url": "https://jundiai.sp.gov.br/noticias/2021/04/15/radares-instalados-no-municipio-integram-campanha-educativa-para-motoristas/"},
+    {"id": "dt-der-sp-radares-2026-10", "family": "imprensa", "city": "",
+     "url": "https://diariodotransporte.com.br/2026/10/01/sao-paulo-homologa-seis-radares-fixos-em-cinco-rodovias-veja-os-quilometros-e-sentidos-de-fiscalizacao/amp/"}
+  ]
+}

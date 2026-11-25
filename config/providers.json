@@ -1,0 +1,26 @@
+{
+  "comentario": "Ordem do revezamento e modelos. As condições gratuitas mudam: confira a página oficial de cada provedor e ajuste aqui, sem mexer no código. daily_cap é um teto LOCAL conservador (a Central para antes de bater no limite do provedor).",
+  "order": ["gemini", "groq", "cloudflare", "mistral"],
+  "providers": {
+    "gemini": {
+      "enabled": true, "env_key": "GEMINI_API_KEY", "daily_cap": 100,
+      "model": "gemini-flash-latest",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    },
+    "groq": {
+      "enabled": true, "env_key": "GROQ_API_KEY", "daily_cap": 200,
+      "model": "openai/gpt-oss-20b",
+      "endpoint": "https://api.groq.com/openai/v1/chat/completions"
+    },
+    "cloudflare": {
+      "enabled": true, "env_key": "CLOUDFLARE_API_TOKEN", "daily_cap": 100,
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "endpoint": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{model}"
+    },
+    "mistral": {
+      "enabled": true, "env_key": "MISTRAL_API_KEY", "daily_cap": 100,
+      "model": "mistral-small-latest",
+      "endpoint": "https://api.mistral.ai/v1/chat/completions"
+    }
+  }
+}

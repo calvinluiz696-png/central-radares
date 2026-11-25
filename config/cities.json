@@ -1,0 +1,5 @@
+{
+  "comentario": "Caixa (sul, oeste, norte, leste) que cobre as cidades do app. Ajuste para expandir ao Brasil: nada no código é específico de Jundiaí.",
+  "priority_cities": ["Jundiaí", "Várzea Paulista", "Campo Limpo Paulista", "Jarinu"],
+  "region_box": [-23.40, -47.30, -22.70, -46.60]
+}
