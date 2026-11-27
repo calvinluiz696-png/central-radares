@@ -1,10 +1,7 @@
 {
-  "started": "2026-11-26T07:34:16Z",
+  "started": "2026-11-27T07:33:42Z",
   "status": "partial",
-  "notes": [
-    "OpenStreetMap indisponível (HTTP 502: Bad Gateway).",
-    "pendentes.csv e nao_oficiais.csv mantidos como estavam (OpenStreetMap indisponível nesta execução)."
-  ],
+  "notes": [],
   "pages": [
     {
       "id": "jundiai-radares-campanha-2021",
@@ -24,8 +21,9 @@
     "calls": {}
   },
   "pardal_points": 5171,
+  "osm_cameras": 156,
   "stats": {
-    "already_in_base": 0,
+    "already_in_base": 128,
     "confirmed": 0,
     "unofficial": 0,
     "pending": 0
@@ -34,6 +32,6 @@
   "pending_total": 0,
   "unofficial_total": 0,
   "unofficial_levels": {},
-  "finished": "2026-11-26T07:34:20Z",
+  "finished": "2026-11-27T07:34:35Z",
   "license": "Dados derivados do projeto Pardal e do OpenStreetMap sob a Open Database License (ODbL) 1.0. Atribuição obrigatória; redistribuição da base derivada deve manter a mesma licença."
 }
